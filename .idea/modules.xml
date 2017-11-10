@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Kotlin-Practice.iml" filepath="$PROJECT_DIR$/.idea/modules/Kotlin-Practice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Kotlin-Practice_main.iml" filepath="$PROJECT_DIR$/.idea/modules/Kotlin-Practice_main.iml" group="Kotlin-Practice" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Kotlin-Practice_test.iml" filepath="$PROJECT_DIR$/.idea/modules/Kotlin-Practice_test.iml" group="Kotlin-Practice" />
+    </modules>
+  </component>
+</project>
