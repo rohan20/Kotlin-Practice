@@ -6,9 +6,13 @@ fun main(args: Array<String>){
     println()
 
     val companiesList = listOf<String>("Google", "Apple", "Samsung", "OnePlus")
-    println("print list: " + companiesList)
-    println("print reverse list: " + companiesList.asReversed())
-    println("check if list is empty: " + companiesList.isEmpty())
 
+    for(company in companiesList){
+        println()
+        print("Hello, ")
+        print(company)
+    }
+
+    println()
 
 }
