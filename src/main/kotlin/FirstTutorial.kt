@@ -7,11 +7,12 @@ fun main(args: Array<String>) {
     print("Enter your name: ")
     val name: String? = readLine()
     printUsername(name)
-    displayChristmasGreeting()
+    val christmasGreeting = displayChristmasGreeting()
+    print(christmasGreeting)
     displayNewYearGreeting()
 
-    val addition = doAdditionOfTwoNumbers(4, 5)
-    println("Addition: " + addition)
+    val addition = doAdditionOfTwoNumbers(41, 5)
+    println("Addition: $addition")
 }
 
 fun doAdditionOfTwoNumbers(num1: Int, num2: Int): Int {
@@ -22,8 +23,8 @@ fun printUsername(name: String?) {
     print("\nHey $name, ")
 }
 
-fun displayChristmasGreeting() {
-    print("we wish you a Merry Christmas")
+fun displayChristmasGreeting(): String {
+    return "we wish you a Merry Xmas"
 }
 
 fun displayNewYearGreeting() {
