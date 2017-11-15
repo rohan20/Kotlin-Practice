@@ -8,7 +8,6 @@ fun main(args: Array<String>) {
 
     val company = Company()
 
-    println("Company Name: " + company.companyName)
-    println("Company Name from getter: " + company.getCarName())
+    println("Company Name from getter: " + company.getCompanyName())
 
 }
