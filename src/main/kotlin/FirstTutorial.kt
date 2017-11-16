@@ -6,9 +6,10 @@ Created by rohan on 10/11/17
 
 fun main(args: Array<String>) {
 
-    val company = Company()
+    val company = Company("Google X", 14)
 
-    println("Company Name from getter: " + company.getCompanyName())
-    println("Parent Company name: " + company.getParentCompanyName())
+    println(company.companyName)
+    println(company.companyId)
+
 
 }
