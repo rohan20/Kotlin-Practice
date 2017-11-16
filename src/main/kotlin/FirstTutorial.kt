@@ -9,5 +9,6 @@ fun main(args: Array<String>) {
     val company = Company()
 
     println("Company Name from getter: " + company.getCompanyName())
+    println("Parent Company name: " + company.getParentCompanyName())
 
 }

@@ -4,7 +4,7 @@ package model
 Created by rohan on 15/11/17  
 */
 
-class Company {
+class Company: ParentCompany() {
 
     private var companyName = "Google";
 
