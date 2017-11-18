@@ -1,10 +1,15 @@
 package model
 
+import `interface`.CompanyInterface
+
 /*
 Created by rohan on 15/11/17  
 */
 
-class Company : ParentCompany {
+class Company : ParentCompany, CompanyInterface {
+    override fun submitRevenueDetails() {
+        println("$10,000")
+    }
 
     var companyName: String = ""
     var companyId: Int = 0
