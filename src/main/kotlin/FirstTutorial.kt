@@ -1,4 +1,5 @@
 import `interface`.ExampleInterface
+import enum.CompanyAction
 import model.Company
 import model.DataCompany
 import singleton.CompanySingleton
@@ -9,19 +10,12 @@ Created by rohan on 10/11/17
 
 fun main(args: Array<String>) {
 
-    val companyA = CompanySingleton
+    val companyA = Company("Google")
 
-    companyA.name = "Nokia"
+    println("CompanyA action: " + companyA.action)
 
-    println("companyA.name: " + companyA.name)
+    companyA.setCompanyAction(CompanyAction.INCREASE_SALARY)
 
-    val companyB = CompanySingleton
-
-    println("companyB.name: " + companyB.name)
-
-    companyB.name = "Samsung"
-
-    println("companyA.name: " + companyA.name)
-    println("companyB.name: " + companyB.name)
+    println("CompanyA action: " + companyA.action)
 
 }

@@ -1,6 +1,7 @@
 package model
 
 import `interface`.CompanyInterface
+import enum.CompanyAction
 
 /*
 Created by rohan on 15/11/17  
@@ -18,9 +19,15 @@ class Company : ParentCompany, CompanyInterface {
         this.companyName = companyName
     }
 
-    constructor(companyName: String, companyId: Int){
+    constructor(companyName: String, companyId: Int) {
         this.companyName = companyName
         this.companyId = companyId
+    }
+
+    var action = CompanyAction.HIRE_EMPLOYEE
+
+    fun setCompanyAction(action: CompanyAction) {
+        this.action = action
     }
 
 }
